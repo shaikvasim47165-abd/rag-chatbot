@@ -1,0 +1,23 @@
+# Streamlit application
+streamlit>=1.40
+
+# LangChain 1.x and compatibility APIs used by RAG_app.py
+langchain>=1.0
+langchain-core>=1.0
+langchain-openai>=1.0
+langchain-google-genai>=2.0
+langchain-cohere>=0.4
+langchain-community>=0.3
+langchain-text-splitters>=0.3
+langchain-classic>=1.0
+
+# Models and provider SDKs
+openai>=1.0
+google-genai>=1.0
+cohere>=5.0
+huggingface-hub>=0.20
+
+# Document loaders and vector store
+chromadb>=0.5
+pypdf>=5.0
+docx2txt>=0.8
